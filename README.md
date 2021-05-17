@@ -29,7 +29,7 @@ az group create -l eastus -n rg-packer-img
 
 deploy your packer image in  rg-packer-img  ,before deploying you packer image you  have to register  packer application  
 
-#### :diamond: register  packer application and get client_id ,client_secret, subscription_id
+#### :collision: register  packer application and get client_id ,client_secret, subscription_id
        1)regitration can be done via azure portal ---> Azure Active Directory ---> App registrations  and you can you client ID and client_secret from here
        2) -->Subscriptions -->Access control (IAM) -->Add role assignment --> assign role to your application 
        3)  use az account show to grab your subscription id , you need 'iD'.
